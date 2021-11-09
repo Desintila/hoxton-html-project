@@ -14,8 +14,8 @@ nav{
     position: fixed;
     display: grid;
     grid-template-columns:  auto 1fr;
-    left: 1rem;
-    right: 1rem;
+    top:0;
+    width: 100vw;
     z-index: 3;
 }
 
@@ -69,4 +69,88 @@ nav h1 a{
     font-size: 1.5rem;
     color: rgb(219, 158, 79);
     font-variant: small-caps;
+}
+.product-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 4rem;
+    padding: 3rem 5rem;
+    margin-top:1rem;
+    margin: 1rem;
+    
+    
+}
+
+.product-1{
+    background-image: url('https://static.zara.net/photos///2021/I/1/1/p/1262/810/070/2/w/1920/1262810070_6_1_1.jpg?ts=1634570834847');
+    background-size: cover;
+    height: 300px;
+    background-position: 25% 60%;
+    
+}
+.product-2{
+    background-size: cover;
+    height: 300px;
+    background-position: 25% 60%;
+    background-image: url('https://static.zara.net/photos///2021/I/1/1/p/2231/810/020/2/w/750/2231810020_6_1_1.jpg?ts=1631096039291');
+}
+.product-3{
+    background-size: cover;
+    height: 300px;
+    background-position: 25% 60%;
+    background-image: url('https://static.zara.net/photos///2021/I/1/1/p/3210/810/001/2/w/750/3210810001_6_1_1.jpg?ts=1629791406126');
+}
+.product{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+.product-image{
+    background-image: url('https://static.zara.net/photos///2021/I/1/1/p/1260/810/040/2/w/750/1260810040_2_1_1.jpg?ts=1634740260175');
+    height: 500px;
+    background-size: cover;
+}
+
+.quote{
+    display: grid;
+    place-items: center;
+    background-color: #f8f8f8;
+}
+footer{
+    background-color: #222222;
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+}
+footer ul{
+    list-style: none;
+    
+}
+footer li{
+    padding: 0.5rem;
+}
+footer li a{
+    text-decoration: none;
+    color: white;
+}
+.social-media img{
+    width: 30px;
+}
+.social-media{
+    padding: 1rem 0;
+}
+.social-media li{
+    display: inline;
+    padding: 0.5rem;
+}
+
+video{
+    width: 100%;
+    height: 100%;   
+    object-fit: cover;
+}
+.text{
+    display: grid;
+    place-items: center;
 }

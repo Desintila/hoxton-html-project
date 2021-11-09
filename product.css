@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    background-color: #ffffffdd;
+   
+    display: grid;
+    grid-template-columns:  auto 1fr;
+    
+}
+header{
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    z-index: 3;
+}
+
+nav ul{
+    list-style: none;
+    display: grid;
+    justify-content: end;
+    grid-template-columns: repeat(3,auto);
+    gap: 5px;
+}
+
+nav li{
+      padding: 15px;
+}
+nav li a{
+    color: black;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+nav h1{
+    display: grid;
+    align-content: center;
+}
+nav h1 a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    gap: 3px;
+    
+}
+.product-1 {
+    background-image: url('https://static.zara.net/photos///2021/I/1/1/p/3216/810/040/2/w/750/3216810040_6_1_1.jpg?ts=1634812444048');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    position: relative;
+    
+}
+.product-2 {
+    background-image: url('https://static.zara.net/photos///2021/I/1/1/p/2234/810/040/2/w/750/2234810040_6_1_1.jpg?ts=1628497270455');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    position: relative;
+}
+.product-3 {
+    background-image: url('https://static.zara.net/photos///2021/I/1/1/p/2235/810/111/2/w/750/2235810111_6_1_1.jpg?ts=1628500532571');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    position: relative;
+}
+.product-4 {
+    background-image: url('https://static.zara.net/photos///2021/I/1/1/p/1224/810/117/2/w/750/1224810117_6_1_1.jpg?ts=1629706792416');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    position: relative;
+}
+.product-5 {
+    background-image: url('https://static.zara.net/photos///2021/I/1/1/p/1201/810/040/2/w/750/1201810040_6_1_1.jpg?ts=1626784995772');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    position: relative;
+}
+.product-6 {
+    background-image: url('https://static.zara.net/photos///2021/I/1/1/p/3203/810/098/2/w/750/3203810098_6_1_1.jpg?ts=1628599498133');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    position: relative;
+}
+.product-7 {
+    background-image: url('https://static.zara.net/photos///2021/I/1/1/p/1218/810/060/2/w/750/1218810060_6_1_1.jpg?ts=1627314179573');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    position: relative;
+}
+.product-8 {
+    background-image: url('https://static.zara.net/photos///2021/I/1/1/p/1217/810/009/2/w/750/1217810009_6_1_1.jpg?ts=1627313766592');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    position: relative;
+}
+.product-9 {
+    background-image: url('https://static.zara.net/photos///2021/I/1/1/p/1216/810/091/2/w/750/1216810091_6_1_1.jpg?ts=1627313899331');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    position: relative;
+}
+main h2{
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 3rem 0;
+}
+main span{
+   position: absolute;
+   bottom: 1rem;
+   right: 1rem;
+   
+}
+ main a{
+    text-decoration: none;
+}
+footer{
+    background-color: #222222;
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+}
+footer ul{
+    list-style: none;
+    
+}
+footer li{
+    padding: 0.5rem;
+}
+footer li a{
+    text-decoration: none;
+    color: white;
+}
+.social-media img{
+    width: 30px;
+}
+.social-media{
+    padding: 1rem 0;
+}
+.social-media li{
+    display: inline;
+    padding: 0.5rem;
+}
