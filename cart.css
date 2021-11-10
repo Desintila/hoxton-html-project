@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+nav{
+    background-color: #f3f3f0bb ;
+   
+    display: grid;
+    grid-template-columns:  auto 1fr;
+    
+}
+
+header{
+    position: sticky;
+    top: 0;
+    
+    z-index: 3;
+}
+
+nav ul{
+    list-style: none;
+    display: grid;
+    justify-content: end;
+    grid-template-columns: repeat(3,auto);
+    gap: 5px;
+}
+
+nav li{
+      padding: 15px;
+}
+nav li a{
+    color: black;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+nav h1{
+    display: grid;
+    align-content: center;
+}
+nav h1 a{
+    text-decoration: none;
+    color: black;
+} 
+main {
+    display: grid;
+    justify-content: center;
+    background-color:#f3f3f0 ;
+}
+.container{
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 7rem;
+    margin-top: 5rem;
+}
+
+.caption {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    text-align: end;
+    gap: 10px;
+    padding: 0.5rem;
+    border-bottom: 1px solid black;
+}
+.item{
+    text-align: start;
+}
+.product-info{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+    gap: 10px;
+    padding: 0.5rem;
+    justify-items: end;
+    border-bottom: 1px solid black;
+}
+.description{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    text-align: start;
+    
+}
+.description img{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    object-position: 50% 70%;
+    
+}
+input[type=number]{
+    width: 40px;
+    height: 20px;
+    text-align: end;
+    background-color: transparent;
+    border: 1px solid black;
+}
+button {
+    width: 30px;
+    height: 27px;
+    background-color: transparent;
+    border: none;
+}
+.total{
+    text-align: end;
+}
+button .icon{
+    width: 30px;
+    height: 25px;
+}
+.description span{
+    display: block;
+    padding: 5px;
+}
+footer{
+    background-color: #222222;
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+}
+footer ul{
+    list-style: none;
+    
+}
+footer li{
+    padding: 0.5rem;
+}
+footer li a{
+    text-decoration: none;
+    color: white;
+}
+.social-media img{
+    width: 30px;
+}
+.social-media{
+    padding: 1rem 0;
+}
+.social-media li{
+    display: inline;
+    padding: 0.5rem;
+}

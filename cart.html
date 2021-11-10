@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cart.css">
 </head>
 <body>
     <header>
@@ -13,43 +13,45 @@
             <h1> <a href="/index.html"> WALK-IN STYLE</a></h1>
             <ul>
                 <li><a href="/productlist.html">SHOP</a></li>
-                <li><a href="/signin.html">ACCOUNT</a></li>
-                <li><a href="/cart.html">CART</a></li>
+                <li><a href="">ACCOUNT</a></li>
+                <li><a href="">CART</a></li>
             </ul>
         </nav>
-    </header>
+    </header> 
     <main>
-        <section class="main-image">
-            <div class="title">
-                <h2>Bring power to your steps.</h2>
-                <a href="">Shop now</a>
+        <div class="container">
+        <div class="caption">
+            <span class="item">Product</span>
+            <span >Price</span>
+            <span>Quantity</span>
+            <span>Total</span>
+        </div>
+        <div class="product-info">
+            <div class="description">
+            <img src="https://static.zara.net/photos///2021/I/1/1/p/3216/810/040/2/w/750/3216810040_6_1_1.jpg?ts=1634812444048" alt="">
+             <div><span>INTERWOVEN FABRIC COURT SHOES</span>
+             <span>Size:36</span>
+             <button><img class="icon" src="/images/trash.svg" alt=""></button>
             </div>
-        </section>
-        <section class="product-card">
-            <a href="/productDetailsPages/productdetails-1.html" class="product-1">
-                <h2>title</h2>
-            </a>
-            <a href="/productDetailsPages/productdetails-2.html" class="product-2">
-                <h2>title</h2>
-            </a>
-            <a href="/productDetailsPages/productdetails-3.html" class="product-3">
-                <h2>title</h2>
-            </a>
-        </section>
-        <section class="product">
-            <div class="quote">‘I still have my feet on the ground – I just wear better shoes.’ – Oprah Winfrey</div>
-            <div class="product-image"></div>
-        </section>
-        <section class="product">
-           
-            <div class="product-video">
-                <video  autoplay loop>
-                <source src="/images/shoesvideo.mp4"type="video/mp4" >
-                </video> 
-            </div> 
-            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, saepe!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quidem hic dolorum eligendi cumque commodi nulla, accusamus molestias doloremque quo.</div>
-        </section>
-        
+            </div>
+            <span>40$</span>
+            <input type="number" min="1" >
+            <span> 40$</span>
+        </div>
+        <div class="product-info">
+            <div class="description">
+            <img src="https://static.zara.net/photos///2021/I/1/1/p/1224/810/117/2/w/750/1224810117_6_1_1.jpg?ts=1629706792416" alt="">
+             <div><span>HEELED SHOES WITH VENTS</span>
+             <span>Size:38</span>
+             <button><img class="icon" src="/images/trash.svg" alt=""></button>
+            </div>
+            </div>
+            <span>48$</span>
+            <input type="number" min="1" >
+            <span> 48$</span>
+        </div>
+        <div class="total">Total 88$</div>
+        </div>
     </main>
     <footer>
         <ul class="about">
