@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="signin.css">
+    <link rel="stylesheet" href="signup.css">
 </head>
 <body>
     <header>
@@ -20,7 +20,13 @@
     </header>
     <main>
         <form action="/index.html">
-            <h2>Login</h2>
+            <h2>Sign Up</h2>
+            <label>First Name
+                <input type="text" name="fristname" required>
+            </label>
+            <label>Last Name
+                <input type="text" name="lastname" required>
+            </label>
             <label>Email
                 <input type="email" name="email" required>
             </label>
@@ -28,10 +34,14 @@
                 Password
                 <input type="password" name="password" required minlength="8"> 
             </label>
+            <label> 
+                Confirm Password
+                <input type="password" name="password" required minlength="8"> 
+            </label>
             <label>
-             <input type="submit" name="submit-button" value="Sign In"></label>
-            <h3><a href="/signup.html"> Create an account</a></h3>
+             <input type="submit" name="submit-button" value="Sign Up"></label>
         </form>
     </main>
+    
 </body>
 </html>
