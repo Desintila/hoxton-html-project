@@ -139,6 +139,17 @@ button {
 .total{
     text-align: end;
 }
+.checkout{
+    
+    padding-top: 2rem;
+    text-align: end;
+}
+.checkout input[type="button"]{
+    background-color: transparent;
+    padding: 1rem 3rem;
+    border: 2px solid rgb(121, 119, 119);
+    border-radius: 20px;
+}
 button .icon{
     width: 30px;
     height: 25px;
