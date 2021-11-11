@@ -77,7 +77,6 @@ nav img{
 	background-color: #8fc0cf;
 	border: 1px solid #000;
 }
-
 .menu li:hover ul
 {
 	display: block;
@@ -87,8 +86,6 @@ main{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(min(400px, 100%), 1fr));
     gap: 3px;
-    
-    
 }
 .product-1 {
     background-image: url('https://static.zara.net/photos///2021/I/1/1/p/3216/810/040/2/w/750/3216810040_6_1_1.jpg?ts=1634812444048');
