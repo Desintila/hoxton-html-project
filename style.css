@@ -53,10 +53,7 @@ nav h1 a{
 nav img{
     width: 30px;
 }
-.responsive{
-    display: none;
-    
-}
+
 .menu ul
 {   
 	width: 200px;
@@ -75,6 +72,38 @@ nav img{
 {
 	display: block;
 } 
+.responsive{
+    display: none;
+    
+}
+.click{
+    position: relative;
+}
+.click-menu{
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    list-style: none;
+    top: 3rem;
+    right: 3rem;
+    width: 150px;
+    text-align: end;
+    background-color: white;
+}
+
+.click input:checked ~ .click-menu{
+    visibility: visible;
+    opacity: 1;
+}
+.click-menu ul{
+    display: block;
+}
+.sub-menu{
+    position: absolute;
+    right: 5rem;
+    text-align: start;    
+}
+
 .main-image{
     background-image: url('/images/photo.jpg');
     background-size: cover;
